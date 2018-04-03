@@ -29,8 +29,9 @@ def find_the_cheese(snacks)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 
-    if snacks.include?(cheese_types)
-      puts snacks.first
+  snacks.each { |snack|
+    if cheese_types.include?(snack)
+      puts snack
     else
       return nil
     end
