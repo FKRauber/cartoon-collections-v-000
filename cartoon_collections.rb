@@ -30,10 +30,6 @@ def find_the_cheese(snacks)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   real_cheese = []
 
-  snacks.each { |snack|
-    if cheese_types.include?(snack)
-      real_cheese.push(snack)
-    end
-  }
+  snacks.each { |snack| if cheese_types.include?(snack) real_cheese.push(snack) end }
   real_cheese[0]
 end
