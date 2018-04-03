@@ -16,8 +16,7 @@ end
 
 def long_planeteer_calls(calls)# code an argument here
   # Your code here
-  calls.map |call| call.length <= 4 ? true : false
-  }
+  calls.map { }|call| call.length <= 4 ? true : false }
 end
 
 def find_the_cheese# code an argument here
