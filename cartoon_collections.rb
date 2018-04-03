@@ -33,7 +33,7 @@ def find_the_cheese(snacks)# code an argument here
   snacks.each { |snack|
     if cheese_types.include?(snack)
       real_cheese.push(snack)
-      puts real_cheese[0]
+      real_cheese[0]
     else
       return nil
     end
