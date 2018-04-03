@@ -34,6 +34,6 @@ def find_the_cheese(snacks)# code an argument here
       puts snack
     else
       return nil
-    end
+    }
   end
 end
