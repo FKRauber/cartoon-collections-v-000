@@ -36,6 +36,6 @@ def find_the_cheese(snacks)# code an argument here
     else
       return nil
     end
-    real_cheese[0]
+    puts real_cheese[0]
   end
 end
