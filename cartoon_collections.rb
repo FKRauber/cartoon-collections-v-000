@@ -28,6 +28,7 @@ end
 def find_the_cheese(snacks)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+  real_cheese = Array.new
 
   snacks.each do |snack|
     if cheese_types.include?(snack)
